@@ -43,6 +43,7 @@ namespace Test_Taste_Console_Application
                 Console.WriteLine($"{ExceptionMessage.ScreenOutputOperationFailed}{exception.Message}");
             }
 
+            Console.ReadLine();
             serviceProvider.Dispose();
         }
 
